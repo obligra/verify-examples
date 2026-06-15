@@ -56,12 +56,14 @@ node server.mjs
   Record ID:    dr_a1b2c3d4-e5f6-7890-abcd-ef1234567890
   Status:       recorded
   Captured at:  2026-06-15T12:00:00.000Z
-  View in console: https://console.obligra.ai/records/dr_...
+  View in console: https://verify-console.emergent.host/records/dr_...
 ```
+
+> **Note:** Production custom domain will be `console.obligra.ai` after cutover.
 
 ## What Happens Next
 
-1. Open the record URL in the Verify Console
+1. Open the record URL in the Verify Console (`https://verify-console.emergent.host`)
 2. Review the captured decision record — prompt, response, metadata, timestamps
 3. Verify the record to confirm the AI output was reviewed
 4. The record is now part of your organization's audit trail
