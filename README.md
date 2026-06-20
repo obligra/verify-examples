@@ -20,7 +20,7 @@ All examples require:
 
 ## Status
 
-Early Integration Preview — examples are validated against the deployed Verify environment.
+Public Preview — examples are validated against the Obligra Verify production platform.
 
 ## License
 

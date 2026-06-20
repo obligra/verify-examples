@@ -18,7 +18,7 @@ const API_KEY = process.env.VERIFY_API_KEY;
 if (!BASE_URL || !API_KEY) {
   console.error("Missing required environment variables.");
   console.error("Copy .env.example to .env and set your credentials:");
-  console.error("  VERIFY_BASE_URL=https://verify-console.emergent.host/api/v1");
+  console.error("  VERIFY_BASE_URL=https://api.obligra.ai/api/v1");
   console.error("  VERIFY_API_KEY=obv_sandbox_YOUR_PREFIX.YOUR_SECRET");
   process.exit(1);
 }
