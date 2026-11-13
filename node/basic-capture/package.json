@@ -7,7 +7,7 @@
     "start": "node --env-file=.env server.mjs"
   },
   "dependencies": {
-    "@obligra/verify-sdk": "github:obligra/verify-node-sdk#ea45daefeeab75a9aaf95b5a9d73ff46292d6f2d"
+    "@obligra/verify-sdk": "github:obligra/verify-node-sdk#01e14863491da7c1eab64932ee8a3fe86c43bfc1"
   },
   "engines": {
     "node": ">=22.20.0"

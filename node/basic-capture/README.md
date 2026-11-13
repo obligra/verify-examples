@@ -31,7 +31,7 @@ VERIFY_API_KEY=obv_sandbox_YOUR_PREFIX.YOUR_SECRET
 
 ### 3. Install dependencies
 
-The dependency is pinned to the independently source-reviewed correction in [SDK PR #1](https://github.com/obligra/verify-node-sdk/pull/1), commit `ea45daefeeab75a9aaf95b5a9d73ff46292d6f2d`. It remains an unreleased candidate with live acceptance pending.
+The dependency is pinned to the independently source-reviewed correction in [SDK PR #1](https://github.com/obligra/verify-node-sdk/pull/1), commit `01e14863491da7c1eab64932ee8a3fe86c43bfc1`. It remains an unreleased candidate with live acceptance pending.
 
 ```bash
 npm install
@@ -85,5 +85,5 @@ All captures are attempted once, including 429/5xx. `timeoutMs` covers headers a
 
 ## Learn More
 
-- [Candidate SDK README](https://github.com/obligra/verify-node-sdk/blob/ea45daefeeab75a9aaf95b5a9d73ff46292d6f2d/README.md)
-- [Candidate SDK API Reference](https://github.com/obligra/verify-node-sdk/blob/ea45daefeeab75a9aaf95b5a9d73ff46292d6f2d/docs/api-reference.md)
+- [Candidate SDK README](https://github.com/obligra/verify-node-sdk/blob/01e14863491da7c1eab64932ee8a3fe86c43bfc1/README.md)
+- [Candidate SDK API Reference](https://github.com/obligra/verify-node-sdk/blob/01e14863491da7c1eab64932ee8a3fe86c43bfc1/docs/api-reference.md)
