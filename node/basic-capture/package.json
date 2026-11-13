@@ -4,9 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node --env-file=.env server.mjs"
   },
   "dependencies": {
-    "@obligra/verify-sdk": "github:obligra/verify-node-sdk"
+    "@obligra/verify-sdk": "github:obligra/verify-node-sdk#01e14863491da7c1eab64932ee8a3fe86c43bfc1"
+  },
+  "engines": {
+    "node": ">=22.20.0"
   }
 }
