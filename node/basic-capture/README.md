@@ -31,7 +31,7 @@ VERIFY_API_KEY=obv_sandbox_YOUR_PREFIX.YOUR_SECRET
 
 ### 3. Install dependencies
 
-The dependency is pinned to the reviewed correction merged in [SDK PR #1](https://github.com/obligra/verify-node-sdk/pull/1), commit `01e14863491da7c1eab64932ee8a3fe86c43bfc1`. Its runtime is identical to the merged 0.2.0 release source. One direct synthetic Test capture using this runtime passed receipt, exact displayed prompt/output/reference readback and saved record-integrity checks on November 15, 2026; the temporary key was revoked. The standalone example application has not itself been run live, and extra AI context not displayed by the Console remains unverified live. The npm package is not yet published; `npm install` here uses the pinned GitHub dependency.
+The dependency is pinned to the reviewed correction merged in [SDK PR #1](https://github.com/obligra/verify-node-sdk/pull/1), commit `01e14863491da7c1eab64932ee8a3fe86c43bfc1`. Its runtime is identical to the merged 0.2.0 release source. One direct synthetic Test capture using this runtime passed receipt, exact displayed prompt/output/reference readback and saved record-integrity checks on November 15, 2026; the temporary key was revoked. The standalone example application has not itself been run live, and extra AI context not displayed by the Console remains unverified live. The npm package `@obligra/verify-sdk@0.2.0` is published; `npm install` in this example still uses the pinned GitHub dependency.
 
 ```bash
 npm install
@@ -85,5 +85,5 @@ All captures are attempted once, including 429/5xx. `timeoutMs` covers headers a
 
 ## Learn More
 
-- [SDK README and validation status](https://github.com/obligra/verify-node-sdk/blob/acbabf91f34178d0781e9ca14a7d5b5e6c366032/README.md)
+- [SDK README and validation status](https://github.com/obligra/verify-node-sdk/blob/5b43a7c95f0538a97e068c3b5ea43cdb6a087d99/README.md)
 - [Pinned SDK API Reference](https://github.com/obligra/verify-node-sdk/blob/01e14863491da7c1eab64932ee8a3fe86c43bfc1/docs/api-reference.md)
