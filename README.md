@@ -20,7 +20,9 @@ All examples require:
 
 ## Status
 
-Public Preview — the Node example pins an independently source-reviewed SDK candidate. Package installation and local synthetic fixtures have been checked; authenticated capture, exact retained-content retrieval and integrity acceptance remain pending for this revision. Historical validation of earlier revisions does not establish current production or live SDK acceptance. Follow the example's runtime and explicit environment-loading instructions.
+Public Preview — the Node example pins the reviewed SDK correction merged in [SDK PR #1](https://github.com/obligra/verify-node-sdk/pull/1). On November 15, 2026, one direct synthetic Test capture using that SDK runtime returned a real receipt; exact displayed prompt, output and references matched in the Console, and the saved record-integrity result passed. The temporary key was revoked. This validates the SDK path; the standalone example application has not itself been run live. Extra AI context not displayed by the Console remains unverified live.
+
+The 0.2.0 release source is merged in [SDK PR #2](https://github.com/obligra/verify-node-sdk/pull/2), but the npm package is not yet published. This example installs its pinned GitHub source. Follow its runtime and explicit environment-loading instructions.
 
 ## License
 
